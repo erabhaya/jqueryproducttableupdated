@@ -1,0 +1,66 @@
+body{
+	font-family: Arial;
+	font-size: 80%;
+}
+
+#main{
+	width: 100%;
+	margin: auto;
+}
+
+#form label{
+	display: block;
+	margin-top: 10px;
+}
+
+#form label span{
+	width: 150px;
+	display: inline-block;
+}
+
+#form.submit{
+	margin-top: 40px;
+}
+
+#form.submit input[type="button"]{
+	border-radius: 5px;
+	border: 1px solid #eeeeee;
+	padding: 10px;
+}
+
+#alert>div{
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#alert.close{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	text-decoration: none;
+}
+
+.green{
+	border: 1px solid green;
+	background: #7ED47E;
+}
+
+.red{
+	border: 1px solid red;
+	background: #FF5733;
+}
+
+#product_list .delete{
+	margin-left: 10px;
+}
+
+#product_list table{
+	width: 400px;
+}
+
+#product_list table th{
+	text-align: left;
+}

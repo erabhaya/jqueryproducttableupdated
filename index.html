@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery_Product_Table</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div id="main">
+		<div id="form">
+			<input type="text" id="id" hidden>
+			<label>
+				<span>Product SKU</span> 
+				<input type="text" id="sku">
+			</label>
+			<label>
+				<span>Product Name</span> 
+				<input type="text" id="name">
+			</label>
+			<label>
+				<span>Product Price</span> 
+				<input type="text" id="price">
+			</label>
+			<label>
+				<span>Product Quantity</span> 
+				<input type="text" id="quantity">
+			</label>
+			<p class="submit">
+				<input type="button" id="add" value="Add Product">
+			</p>
+			<p class="submit">
+				<input type="button" id="update" value="Update Product">
+			</p>
+		</div>
+		<div id="alert">
+			<div class="green"><a href="#" class="close">X</a></div>
+			<div class="red"><a href="#" class="close">X</a>Please enter SKU Details -:</div>
+		</div>
+		<div id="list">
+
+		</div>
+	</div>
+	<script src="./main.js"></script>
+</body>
+</html> 
